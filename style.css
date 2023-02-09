@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+  text-align: center;
+  background-color: aqua;
+}
+
+.calendar-dates {
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+  text-align: center;
+}
