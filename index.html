@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>survey form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="">
+        <h1>employees interest survey form</h1>
+        <div class="form-group">
+          <label for="username">username</label>
+          <input
+            type="text"
+            name="username"
+            size="35"
+            maxlength="50"
+            value=""
+          />
+          <label for="departemnt">department</label>
+          <input
+            type="text"
+            name="departemnt"
+            size="35"
+            maxlength="50"
+            value=""
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="movie-pref">movie preference</label>
+          <select name="movie-pref">
+            <option value="" disabled selected>select</option>
+            <option value="comedy">comedy</option>
+            <option value="thriller">thriller</option>
+            <option value="romance">romance</option>
+            <option value="horror">horror</option>
+            <option value="biopic">biopic</option>
+          </select>
+
+          <label for="recommend">Do u recommend</label>
+          <input type="radio" name="recommend" value="defintely" />
+        </div>
+
+        <div class="form-group">
+          <label for="dob">Date of birth</label>
+          <input type="date" name="dob" value="" />
+
+          <label for="age">age</label>
+          <input type="number" name="age" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Enter email</label>
+          <input type="email" name="email" />
+
+          <label for="password">password</label>
+          <input type="password" name="password" />
+        </div>
+
+        <div class="form-group">
+          <label for="comments">what exercise do u do at home</label>
+          <textarea name="comments" cols="30" rows="4"></textarea>
+        </div>
+
+        <button id="submit">submit</button>
+      </form>
+    </div>
+  </body>
+</html>
